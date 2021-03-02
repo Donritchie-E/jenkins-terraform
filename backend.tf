@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "terraform-pipelinefhjksahf"
     key    = "state/jjtech.tfstate"
-    region = "us-west-1"
+    region = "us-east-1"
     profile = "default"
   }
 }
